@@ -21,6 +21,8 @@ Outline and justify how your level design facilitates the core player experience
 ### 1.1. Discovery
 What does the player learn? How does your encounter and broader level design facilitate learning in a way that follows good design practice?
 
+In the first section of the game, is designed to feel like a "minature version" of the second section of the game. The player is introduced to spikes and acid pits they need to jump over and 
+
 ### 1.2. Drama
 What is the intensity curve? How does your design facilitate increasing yet modulating intensity, with moments of tension and relief? 
 
