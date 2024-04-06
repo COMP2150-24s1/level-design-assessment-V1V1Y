@@ -15,88 +15,152 @@ Example:
 
 ![This is the alt text for an image!](DocImages/exampleimage.png)
 
-## 1. Player Experience (~700 words)
-Outline and justify how your level design facilitates the core player experience goals outlined in the assignment spec. Each section should be supported by specific examples and screenshots of your game encounters that highlight design choices made to facilitate that particular experience.
+## 1. Player Experience 
+
 
 ### 1.1. Discovery
-What does the player learn? How does your encounter and broader level design facilitate learning in a way that follows good design practice?
+When I designed this game, I designed it as a series of rooms and strung them together to make my level map. The idea I went with is having the player learn through play. This was done by giving them simple encounters in the first level to prepare them for later encounters
 
-In the first section of the game, is designed to feel like a "minature version" of the second section of the game. The player is introduced to spikes and acid pits they need to jump over and 
+The first level starts out slow, the player simply needs to jump their way out of the first room. The next encounter the player has is with the checkpoint and acid pits. Giving the player a safe environment to discover the features of the acid pit. This room also introduces a moving platform to slightly increase difficulty.
+
+![Image of checkpoint and acid pits](DocImages/exampleimage.png)
+
+When the player meets the spikes, they are laid out in a way that restricts how the player lands on platforms. This teaches the player to look out for these spikes and avoid jumping on to them.
+
+![Image of first encounter with spikes](DocImages/exampleimage.png)
+
+To enter the next room the player pushes down a push-able box. This teaches the player that they can access high platforms by locating a push-able box. After that they meet the possible enemies in this level, the chompers and the spitters, as they make their way out of the first level.
+
+![Image of Player pushing a box](DocImages/exampleimage.png)
+![Image of the Chompers](DocImages/exampleimage.png)
+![Image of the Spitters](DocImages/exampleimage.png)
+
+
+At this point, the players would have become familiar with what they would need to avoid as they progress through the level. They would also be familiar with the simple puzzles involving the push-able box.
 
 ### 1.2. Drama
-What is the intensity curve? How does your design facilitate increasing yet modulating intensity, with moments of tension and relief? 
+
+The level is designed in a series of “rooms” in which the player’s “encounters” occur, so there are multiple connective spaces between rooms to help the player catch their breath between each section. I also tried to place many health boxes after areas that players may find difficult to help give them feelings of relief if they got low on health. There are also rooms that act as hubs between areas for the player when they progress to the next level. The second area has two connecting rooms while the third level has a room with enemies that you can clear out now that you have access to the weapons. 
+
+![Photo of the connective spaces in the level map](DocImages/exampleimage.png)
+
+ Most of the puzzle/encounter like room past the first level rewards the player with an item to help them progress in their journey. This gives the player feelings of joy when they are able to clear the room and get closer to their goal of completing the level.
 
 ### 1.3. Challenge
-What are the main challenges? How have you designed and balanced these challenges to control the difficulty curve and keep the player in the flow channel?
+
+I was very concerned about the difficulty of the game. It was hard to try and experience the game as someone who didn’t already know where everything was located. Also trying to keep in mind the time constraints of the game, I lowered the difficulty as much as I could will trying to still give an experience of tension for the player. The light tension and swift progression through areas is intended to help player achieve flow.
+I believe some of the bigger challenges of the game would be avoiding the spikes. I personally found them hard to see at times and they can cost you some progress if they knock you off platforms. I placed many health boxes all over the map and right after encounters with spikes to help patch players up after these encounters.
+
 
 ### 1.4. Exploration
-How does your level design facilitate autonomy and invite the player to explore? How do your aesthetic and layout choices create distinct and memorable spaces and/or places?
+I tried to incentivise the exploration of the player by guiding them through forks in the path with sneak peaks of the other room. For example, in level 2 the player is directed through a path that leads them to the melee weapon in another room, this incentivises them to pick up the melee weapon before continuing on their journey. Another example is in level 3, the player is able to see a room to their left hand-side while trying to reach the push-able box to proceed through the main room in level 3. 
 
-## 2. Core Gameplay (~400 words)
-A section on Core Gameplay, where storyboards are used to outline how you introduce the player to each of the required gameplay elements in the first section of the game. Storyboards should follow the format provided in lectures.
+![Image of the path to the melee weapon](DocImages/exampleimage.png)
+![Image showing the room to the left of the screen](DocImages/exampleimage.png)
 
-Storyboards can be combined when multiple mechanics are introduced within a single encounter. Each section should include a sentence or two to briefly justify why you chose to introduce the mechanic/s to the player in that sequence.
+I also tried to improve the exploration experience of branching paths by having them loop back to a main room so the player can avoid backtracking. For example, in level 3 you can chose to obtain the 3rd or 2nd key first. You are also able to obtain the 3rd key by entering the room from the back. Both rooms that hold the key eventually loop back to a main room that connects the areas together so there is not much backtracking and the player is able to seamlessly progress through the level.
+![Image of the level 3 layout](DocImages/exampleimage.png)
 
-You should restructure the headings below to match the order they appear in your level.
+## 2. Core Gameplay
 
-### 2.1. Acid
 
-### 2.2. Checkpoints
+### 2.1. Checkpoints & Acid
+ The player first encounters acid in the second room of the first level. It is also stationed right after the player’s first checkpoint. This poses a deadly threat to the player and teaches the player that if they fall into an acid pit they will have to restart from the checkpoint.
+ ![Checkpoint and acid storyboard](DocImages/exampleimage.png)
 
-### 2.3. Chompers
+
+### 2.2. Moving Platforms
+After learning about the acid pits, the player is introduced to a moving platform that travels above the acid pit to deliver the player to safety.
+![Moving platform storyboard](DocImages/exampleimage.png)
+
+
+### 2.3. Spikes
+Spikes are introduced in the third room of the first level. These pose as threats that force the player to carefully position their jumps to avoid getting hurt. While spikes do not send the player back to the last checkpoint, the knock back is something the players must definitely avoid if they don’t want to get knocked off a platform.
+![Spikes storyboard](DocImages/exampleimage.png)
+
 
 ### 2.4. Health Pickups
+The first health pick up is available in the spike room. The player will naturally pass by it on the way out of the room. 
 
-### 2.5. Keys
+![Health pickup storyboard](DocImages/exampleimage.png)
 
-### 2.6. Moving Platforms
+### 2.5. Push-able Box
+When entering the final room of the first level the player will encounter a push-able box that they can use to make higher jumps.
 
-### 2.7. Passthrough Platforms
+![Push-able Box storyboard](DocImages/exampleimage.png)
 
-### 2.8. Spikes
+### 2.6. Chompers
+Chompers are an enemy that appears on the final room of the first level. They are a moving threat that will chase after the player if the player approaches them. The player can safely avoid them by jumping on the platforms. 
+![Chomper storyboard](DocImages/exampleimage.png)
 
-### 2.9. Spitters
+### 2.7. Spitters
+Spitters are introduced in the same room that the chompers do. As the player attempts to exit the first level spitters spit acid at their heels. The player must quickly jump out of the room to avoid them.
+![Spitters storyboard](DocImages/exampleimage.png)
 
-### 2.10. Weapon Pickup (Gun)
+### 2.8. Passthrough Platforms
+ As the player makes their way out of the first level they encounter these special platforms. The passthrough platforms allow the player to jump through them, and duck under them.
+ ![Passthrough Platforms storyboard](DocImages/exampleimage.png)
 
-### 2.11. Weapon Pickup (Staff)
+
+### 2.9. Weapon Pickup (Staff) & Breakable wall
+Upon making their way to the second level, the player is guided to the room where the staff is located. After traversing the room and solving a small puzzle, the player is able to obtain the staff and break out of the room.
+![Melee weapon storyboard](DocImages/exampleimage.png)
+
+### 2.10. Keys
+Keys are necessary to open the door and complete the level. It is the goal of the player to locate them.
+![Key and door storyboard](DocImages/exampleimage.png)
+
+### 2.11. Weapon Pickup (Gun)
+On the third level, the player is able to access a gun. Using the gun they are able to dispose of enemies from a distance.
+![Gun storyboard](DocImages/exampleimage.png)
 
 ## 3. Spatiotemporal Design
-A section on Spatiotemporal Design, which includes your molecule diagram and annotated level maps (one for each main section of your level). These diagrams may be made digitally or by hand, but must not be created from screenshots of your game. The annotated level maps should show the structure you intend to build, included game elements, and the path the player is expected to take through the level. Examples of these diagrams are included in the level design lectures.
-
-No additional words are necessary for this section (any words should only be within your images/diagrams).
  
 ### 3.1. Molecule Diagram
+![Molecule Diagram](DocImages/exampleimage.png)
 
 ### 3.2. Level Map – Section 1
+![Section 1](DocImages/exampleimage.png)
 
 ### 3.3.	Level Map – Section 2
+![Section 2](DocImages/exampleimage.png)
 
 ### 3.4.	Level Map – Section 3
+![Section 3](DocImages/exampleimage.png)
+![Section 3 alternate path](DocImages/exampleimage.png)
 
 ## 4. Iterative Design (~400 words)
-Reflect on how iterative design helped to improve your level. Additional prototypes and design artefacts should be included to demonstrate that you followed an iterative design process (e.g. pictures of paper prototypes, early grey-boxed maps, additional storyboards of later gameplay sequences, etc.). You can also use this section to justify design changes made in Unity after you drew your level design maps shown in section 3. 
+When I designed my levels, I started by drawing out rooms of encounters I had wanted to happen. This resulted in a series of challenges and action-packed rooms. 
+![first drafts](DocImages/exampleimage.png)
+![first drafts](DocImages/exampleimage.png)
 
-You should conclude by highlighting a specific example of an encounter, or another aspect of your level design, that could be improved through further iterative design.
+After testing the levels, I discovered that they were short and intense. I tried to stretch them out and lower the difficulty. Eventually I realised that by stretching out the encounters I had made the game very linear. 
 
-## Generative AI Use Acknowledgement
+![first iteration in unity](DocImages/exampleimage.png)
 
-Use the below table to indicate any Generative AI or writing assistance tools used in creating your document. Please be honest and thorough in your reporting, as this will allow us to give you the marks you have earnt. Place any drafts or other evidence inside this repository. This form and related evidence do not count to your word count.
-An example has been included. Please replace this with any actual tools, and add more as necessary.
+I tried to change this by adding another path between the first and second levels of the game.
 
+![additional room draft](DocImages/exampleimage.png)
+![additional room in unity](DocImages/exampleimage.png)
 
-### Tool Used: ChatGPT
-**Nature of Use** Finding relevant design theory.
+However, I was still unsatisfied by this. The optional path felt superficial and forced. And some of the sections were more challenging than I anticipated. Particularly the level with the moving platforms above a large acid pit.
 
-**Evidence Attached?** Screenshot of ChatGPT conversation included in the folder "GenAI" in this repo.
+Eventually I scrapped my initial design and began to redesign the layout of my levels.
 
-**Additional Notes:** I used ChatGPT to try and find some more relevant design theory that I could apply to my game. After googling them, however, I found most of them were inaccurate, and some didn't exist. One theory mentioned, however, was useful, and I've incorporated it into my work.
+![second draft](DocImages/exampleimage.png)
 
-### Tool Used: Example
-**Nature of Use** Example Text
+After I drew a layout I was satisfied with, I filled up these rooms by recycling some of the ideas I liked from my original design but also adding some new puzzles.
+![fleshing out the draft](DocImages/exampleimage.png)
+![second iteration in unity](DocImages/exampleimage.png)
 
-**Evidence Attached?** Example Text
+After testing out the levels, I reduced the difficulty of some of the challenges from the first iteration and the levels felt less linear. Still there were some changes that could still be made. 
 
-**Additional Notes:** Example Text
+The first change was that it felt awkward backtrack from the door to get the second key. So, I added another path that allowed the player to climb out of the door room and into the hub. This circular path felt more natural in case the player decided to go in that direction and ended up at the door while missing a key. It also gives the player different options on how to approach the third key.
+
+The second change was the room to the right of the second key felt a little boring. So, I changed this room’s layout and added a spitter to give it more of its own identity. 
+![third draft](DocImages/exampleimage.png)
+![third iteration in unity](DocImages/exampleimage.png)
+
+After some edits made while playtesting the game, this is the finished level design I was able to come up with. There are many improvements that could still be made particularly in helping guide players to rooms located on their left-hand side. I had noticed while play-testing that players often move forwards heading to the right even if they can see something peeking on the left hand-side of the screen. With more testing I think this can be improved further.
 
 
