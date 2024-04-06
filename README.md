@@ -44,7 +44,7 @@ The level is designed in a series of “rooms” in which the player’s “enco
 
 ![Photo of the connective spaces in the level map](DocImages/conn.png)
 
- Most of the puzzle/encounter like room past the first level rewards the player with an item to help them progress in their journey. This gives the player feelings of joy when they are able to clear the room and get closer to their goal of completing the level.
+This is a photo of some of the connective spaces between areas of the map that host the player encounters. Most of the puzzle/encounter like room past the first level rewards the player with an item to help them progress in their journey. This gives the player feelings of joy when they are able to clear the room and get closer to their goal of completing the level.
 
 ### 1.3. Challenge
 
