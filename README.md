@@ -4,7 +4,7 @@
 ### Student number: 47458674
 
 
-## 1. Player Experience 
+## 1. Player Experience  
 
 
 ### 1.1. Discovery
